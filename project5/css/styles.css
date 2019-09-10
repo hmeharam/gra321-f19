@@ -1,0 +1,24 @@
+/* Styles for Project 4 */
+
+body {
+    font-family: proxima-nova,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: .5px;
+    padding: 5%;
+    margin-bottom: 2rems;
+}
+
+h1 {
+    color:darkorchid;
+    font-weight: 500;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+img {
+    max-width: 100%;
+}
