@@ -1,22 +1,25 @@
-/* Styles for Project 4 */
+/* Styles for Project 5 */
 
 body {
-    font-family: proxima-nova,sans-serif;
-    font-weight: 300;
-    font-style: normal;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.5;
     letter-spacing: .5px;
-    padding: 5%;
-    margin-bottom: 2rems;
+    padding: 3% 10% 3% 10%;
 }
 
 h1 {
     color:darkorchid;
     font-weight: 500;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 h2 {
     font-weight: 500;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 5px;
+    text-transform: uppercase
 }
 
 img {
