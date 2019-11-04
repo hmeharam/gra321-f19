@@ -308,13 +308,14 @@ footer p{
         padding-top: 5px;
     }
     
-    img{
-        max-width: 100%;
-    }
     .contact{
         display: grid;
         grid-template-columns: 500px;
         grid-row-gap: 50px;
+    }
+    
+    img{
+        max-width: 100%;
     }
     
   }
