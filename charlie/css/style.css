@@ -301,7 +301,7 @@ footer p{
     
     .paninis{
         display: grid;
-        grid-template-columns: 500px;
+        grid-template-columns: 400px;
         grid-row-gap: 50px;  
     }
     .pic{
@@ -313,7 +313,7 @@ footer p{
     }
     .contact{
         display: grid;
-        grid-template-columns: 500px;
+        grid-template-columns: 400px;
         grid-row-gap: 50px;
     }
     
