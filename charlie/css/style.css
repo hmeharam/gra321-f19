@@ -286,7 +286,12 @@ footer p{
 
 
 
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 768px) {
+    .contact{
+        display: grid;
+        grid-template-columns: 500px;
+        grid-row-gap: 50px;
+    }
     .container{
         display: grid;
         grid-template-columns: 500px;
@@ -308,11 +313,6 @@ footer p{
         padding-top: 5px;
     }
     
-    .contact{
-        display: grid;
-        grid-template-columns: 500px;
-        grid-row-gap: 50px;
-    }
     
     
   }
