@@ -289,19 +289,19 @@ footer p{
 @media only screen and (max-width: 768px) {
     .container{
         display: grid;
-        grid-template-columns: 400px;
+        grid-template-columns: 500px;
         grid-row-gap: 50px;
     }
     .about{
         display: grid;
-        grid-template-columns: 400px;
+        grid-template-columns: 500px;
         grid-row-gap: 50px;
         
     }
     
     .paninis{
         display: grid;
-        grid-template-columns: 400px;
+        grid-template-columns: 500px;
         grid-row-gap: 50px;  
     }
     .pic{
@@ -313,7 +313,7 @@ footer p{
     }
     .contact{
         display: grid;
-        grid-template-columns: 400px;
+        grid-template-columns: 500px;
         grid-row-gap: 50px;
     }
     
