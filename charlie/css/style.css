@@ -188,20 +188,22 @@ textarea {
 
 [type="submit"] {
   width: 100%;
-  background: saddlebrown;
+  background: transparent;
   border-radius:5px;
-  border:0;
+  border: 2px solid saddlebrown;
   cursor:pointer;
-  color:white;
+  color:saddlebrown;
   font-size:24px;
   padding-top:10px;
   padding-bottom:10px;
   transition: all 0.3s;
   margin-top:-4px;
-  font-weight:700;
+  font-weight:600;
 }
 
-[type="submit"]:hover { background:tan;
+[type="submit"]:hover { background:saddlebrown;
+   
+    color: white;
 }
 
 img {
@@ -278,15 +280,14 @@ footer p{
 
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) (max-width: 480px) {
     
-     [class*="container"] {
-    width: 100%;
-  }
+
     .container{
         display: grid;
         grid-template-columns: 400px;
         grid-row-gap: 50px;
+        max-width: 100%;
     }
     .about{
         display: grid;
