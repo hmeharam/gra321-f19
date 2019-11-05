@@ -9,6 +9,7 @@ body {
    padding: 0;
 }
 
+
 .hero {
    position: relative;
    padding: 10em 0; 
@@ -188,11 +189,11 @@ textarea {
 
 [type="submit"] {
   width: 100%;
-  background: transparent;
+  background: saddlebrown;
   border-radius:5px;
-  border: 2px solid saddlebrown;
+  border: 2px solid saddlebrown ;
   cursor:pointer;
-  color:saddlebrown;
+  color:white;
   font-size:24px;
   padding-top:10px;
   padding-bottom:10px;
@@ -201,9 +202,9 @@ textarea {
   font-weight:600;
 }
 
-[type="submit"]:hover { background:saddlebrown;
+[type="submit"]:hover { background:white;
    
-    color: white;
+    color: saddlebrown;
 }
 
 img {
@@ -277,3 +278,54 @@ footer{
 footer p{
      color:white;
 }
+
+@media only screen and (max-width: 768px) {
+    
+
+    .container{
+        display: grid;
+        grid-template-columns: 400px;
+        grid-row-gap: 50px;
+        max-width: 100%;
+    }
+    .about{
+        display: grid;
+        grid-template-columns: 400px;
+        grid-row-gap: 50px;
+        
+    }
+    
+    .paninis{
+        display: grid;
+        grid-template-columns: 400px;
+        grid-row-gap: 50px;
+        width: 100%;
+    }
+    .pic{
+        padding-top: 5px;
+    }
+
+
+    
+    .contact{
+        display: grid;
+        grid-template-columns: 400px;
+        grid-row-gap: 50px;
+    }
+    
+    .hero-subtitle {
+        font-size: 19px;
+   
+}
+    .topnav-logo{
+        font-size: 18px;
+        line-height: 1.4rem;
+        padding-left: 10px;
+    
+}
+    .topnav{
+        font-size:15px;
+        padding-right: 5px;
+    }
+    
+  }
