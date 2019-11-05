@@ -300,11 +300,6 @@ footer p{
         padding-top: 5px;
     }
 
-    .contact{
-        display: grid;
-        grid-template-columns: 400px;
-    }
- 
 
     
     .contact{
