@@ -12,7 +12,7 @@ body {
 
 .hero {
    position: relative;
-   padding: 10em 0; 
+   padding: 9em 0; 
    display: flex;
    justify-content: center;
    align-items: center;
@@ -42,14 +42,15 @@ body {
 
 .hero-title {
     font-family: montserrat,Arial,sans-serif;
-   font-size: 4rem;
+   font-size: 4.5rem;
    font-weight: 300;
-   margin-bottom: 0;
+    letter-spacing: 3px;
+   margin-bottom: 30px;
 }
 
 .hero-subtitle {
     font-family: montserrat,Arial,sans-serif;
-   font-size: 25px;
+   font-size: 28px;
    font-weight: 200;
    margin-top: 1rem;
 }
@@ -141,13 +142,44 @@ body {
     font-family: montserrat,arial,sans-serif;
 }
 
+.about-button {
+    display: inline-block;
+    font-weight: 300;
+    text-align: center;
+    transition: all .15s ease-in-out;
+    border: 1px solid saddlebrown;
+    padding: .75rem .75rem;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    margin: 30px;
+    color:saddlebrown;
+}
+
+.about-button:hover {
+   border: 1px solid tan;
+    color: black;
+    background-color: white;
+}
+
+.about-button a {
+    color:white;
+    padding: 8px 10px;
+    text-decoration: none;
+    
+}
+
+.about-button a:hover{
+    color: black;
+}
+
 h3{
     text-transform: uppercase;
     text-align: center;
     color: saddlebrown;
     font-family: "montserrat", sans-serif;
     font-weight: 500;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
 }
 
 
@@ -314,9 +346,12 @@ footer p{
     }
     
     .hero-subtitle {
-        font-size: 19px;
+        font-size: 22px;
    
 }
+    .hero-title{
+        font-size: 55px;
+    }
     .topnav-logo{
         font-size: 18px;
         line-height: 1.4rem;
