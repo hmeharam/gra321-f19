@@ -279,6 +279,10 @@ footer p{
 
 
 @media only screen and (max-width: 768px) {
+    
+     [class*="container-"] {
+    width: 100%;
+  }
     .container{
         display: grid;
         grid-template-columns: 400px;
