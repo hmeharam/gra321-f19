@@ -281,7 +281,7 @@ footer p{
 @media only screen and (max-width: 768px) {
     .container{
         display: grid;
-        grid-template-columns: 200px;
+        grid-template-columns: 400px;
         grid-row-gap: 50px;
     }
     .about{
@@ -299,11 +299,21 @@ footer p{
     .pic{
         padding-top: 5px;
     }
+<<<<<<< HEAD
     .contact{
         display: grid;
         grid-template-columns: 400px;
     }
  
+=======
+    
+    .contact{
+        display: grid;
+        grid-template-columns: 400px;
+        grid-row-gap: 50px;
+    }
+    
+>>>>>>> 7840085f6963ee863515611b918d3ba3edf0511f
     
   }
 
