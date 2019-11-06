@@ -9,78 +9,6 @@ body {
    padding: 0;
 }
 
-@media (min-width: 48em) {
-  .header li {
-    float: left;
-  }
-  .header li a {
-    padding: 20px 30px;
-  }
-  .header .menu {
-    clear: none;
-    float: right;
-    max-height: none;
-  }
-  .header .menu-icon {
-    display: none;
-  }
-       .container{
-        display: grid;
-        grid-template-columns: 400px;
-        grid-row-gap: 50px;
-        max-width: 100%;
-    }
-    .about{
-        display: grid;
-        grid-template-columns: 400px;
-        grid-row-gap: 50px;
-        
-    }
-    
-    .paninis{
-        display: grid;
-        grid-template-columns: 400px;
-        grid-row-gap: 50px;
-        width: 100%;
-    }
-    .pic{
-        padding-top: 5px;
-    }
-
-
-    
-    .contact{
-        display: grid;
-        grid-template-columns: 400px;
-        grid-row-gap: 50px;
-    }
-    
-    .hero-subtitle {
-        font-size: 22px;
-   
-}
-    .hero-title{
-        font-size: 55px;
-    }
-    .topnav-logo{
-        font-size: 18px;
-        line-height: 1.4rem;
-        padding-left: 10px;
-    
-}
-    .topnav{
-        font-size:15px;
-        padding-right: 5px;
-        padding-left: 5px;
-    }
-    
-    .location{
-        display: grid;
-        grid-template-columns: 400px;
-    }
-    
-    
-}
 
 
 .hero {
@@ -560,6 +488,21 @@ footer p{
     
   }
 
+@media (min-width: 48em) {
+  .header li {
+    float: left;
+  }
+  .header li a {
+    padding: 20px 30px;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
 
 
 
