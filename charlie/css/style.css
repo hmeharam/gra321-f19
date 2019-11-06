@@ -10,7 +10,6 @@ body {
 }
 
 
-
 .hero {
    position: relative;
    padding: 9em 0; 
@@ -102,9 +101,8 @@ body {
 .topnav a {
     text-transform: uppercase;
     color:black;
-    padding: 8px 0px;
     text-decoration: none;
-    margin-right: 1rem;
+    margin-right: .5rem;
     font-size: 16px; 
     font-family:  montserrat,Arial,sans-serif;
     font-weight: 400;
