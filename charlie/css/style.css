@@ -110,10 +110,8 @@ body {
 }
 
 .topnav a:hover {
-    
     color: saddlebrown;
 }
-
 
 .header {
   background-color: #fff;
@@ -220,8 +218,6 @@ body {
 .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
   top: 0;
 }
-
-
 
 
 .about {
@@ -452,8 +448,6 @@ footer p{
         padding-top: 5px;
     }
 
-
-    
     .contact{
         display: grid;
         grid-template-columns: 400px;
@@ -501,7 +495,7 @@ footer p{
   .header .menu-icon {
     display: none;
   }
-
+}
 
 
 
