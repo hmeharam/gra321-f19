@@ -375,7 +375,7 @@ h4 {
 
 
 .pic {
-    padding-top: 20px;
+    padding-top: 5rem;
 }
 
 .contact {
@@ -406,6 +406,7 @@ footer p{
     display: grid;
     grid-template-columns: 400px 400px ;
     grid-gap: 45px;
+    padding-top: 0px;
 }
 
 
